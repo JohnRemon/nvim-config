@@ -15,4 +15,12 @@ return {
         { "<leader>r", "<cmd>CompetiTest run<cr>", { desc = "Run tests" } },
         { "<leader>rr", "<cmd>CompetiTest receive problem<cr>", { desc = "Receive problem" } },
     },
+    {
+        "kawre/leetcode.nvim",
+        build = ":TSUpdate html",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "MunifTanjim/nui.nvim",
+        },
+    },
 }
