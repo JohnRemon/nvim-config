@@ -17,7 +17,3 @@ keymap.set("n", "<C-w><left>", "<C-w><")
 keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
-
--- CompetiTest
-keymap.set("n", "<leader>r", "<cmd>CompetiTest run<cr>", { desc = "Run tests" })
-keymap.set("n", "<leader>rr", "<cmd>CompetiTest receive problem<cr>", { desc = "Receive problem" })
